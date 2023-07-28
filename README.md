@@ -37,6 +37,8 @@
 </div>
 
 ## Installation
+> You can also build the program from source, see [Build from Source](#build-from-source).
+
 <h3 style="display: inline;">First</h3>, download the "<code>windows-sudo</code>" zip file from the release you're planning to use.
 
 Once you've downloaded the file, unzip it. After, you should see a folder with the `.exe` file inside.
