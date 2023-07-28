@@ -82,6 +82,7 @@ dotnet build SudoCommand.sln --configuration Release
 > These commands will compile the project in Release mode. If you need it, you can also compile in Debug mode by removing `--configuration Release` from the options.
 
 Once done, the build should compile successfully and you'll see the executable in `sudo/bin/Release/net6.0/`.
+> If you compiled in Debug mode, you'll find the executable in `sudo/bin/Debug/net6.0/`.
 
 # License
  This project is licensed under the Attribution-NonCommercial-NoDerivatives 4.0 International license.
