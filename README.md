@@ -38,6 +38,14 @@ Once you've downloaded the file, unzip it. After, you should see a folder with t
 To complete the installation, you could add the unzipped folder to your `path`.
 
 ## Usage
+> <!> If you haven't installed the program, please follow the [installation](#installation) guide first.
+
+The program is very easy to use and once installed it can be used right away.
+
+```bash
+sudo [options] <program>
+```
+That's the structure the program expects you to pass in arguments.
 
 # License
  This project is licensed under the Attribution-NonCommercial-NoDerivatives 4.0 International license.
