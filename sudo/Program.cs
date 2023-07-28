@@ -6,7 +6,8 @@ namespace Sudo
     {
         static void Main(string[] args)
         {
-            string[] parsedArgs = RunArgs(args);
+            string[] parsedArgs = {};
+            try { parsedArgs = RunArgs(args); } catch (ArgumentException exception) { Console.Error.WriteLine(exception.Message); }
             if (parsedArgs.Length == 0) { return; }
             string program = parsedArgs[0];
 
