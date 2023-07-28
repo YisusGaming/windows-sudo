@@ -15,7 +15,7 @@ namespace Sudo
             info.UseShellExecute = true;
             info.Verb = "runas";
 
-            Process.Start(info);
+            try { Process.Start(info); } catch (System.ComponentModel.Win32Exception winException) { Console.Error.WriteLine("[ERR!]: " + winException.Message); }
         }
 
         /**
