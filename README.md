@@ -22,6 +22,12 @@
             </td>
         </tr>
         <tr>
+            <td>Build from Source</td>
+            <td>
+                <a href="#build-from-source">Go</a>
+            </td>
+        </tr>
+        <tr>
             <td>License</td>
             <td>
                 <a href="#license">Go</a>
@@ -48,6 +54,32 @@ sudo [options] <program>
 That's the structure the program expects you to pass in arguments.
 
 To see available options, pass `--help` as an option.
+
+## Build from Source
+
+<h3 style="display:inline;">First</h3>, make sure you have .NET installed.
+
+`.NET 6.0.302` was used for this project.
+
+If you have `git`, you can `git clone` this repository.
+```shell
+git clone repo-link
+```
+Or you could simply download the source code as a zip and unzip it.
+
+<h3 style="display:inline;">Then</h3>, navigate to the cloned or downloaded folder and run:
+
+```shell
+dotnet build --configuration Release
+```
+It *should* compile the solution automatically, if it doesn't work, try specifying the solution explicitly:
+```shell
+dotnet build SudoCommand.sln --configuration Release
+```
+
+> These commands will compile the project in Release mode. If you need it, you can also compile in Debug mode by removing `--configuration Release` from the options.
+
+Once done, the build should compile successfully and you'll see the executable in `sudo/bin/Release/net6.0/`.
 
 # License
  This project is licensed under the Attribution-NonCommercial-NoDerivatives 4.0 International license.
