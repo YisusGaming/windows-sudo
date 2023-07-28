@@ -47,6 +47,8 @@ sudo [options] <program>
 ```
 That's the structure the program expects you to pass in arguments.
 
+To see available options, pass `--help` as an option.
+
 # License
  This project is licensed under the Attribution-NonCommercial-NoDerivatives 4.0 International license.
  
