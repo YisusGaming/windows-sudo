@@ -31,6 +31,11 @@
 </div>
 
 ## Installation
+<h3 style="display: inline;">First</h3>, download the "<code>windows-sudo</code>" zip file from the release you're planning to use.
+
+Once you've downloaded the file, unzip it. After, you should see a folder with the `.exe` file inside.
+
+To complete the installation, you could add the unzipped folder to your `path`.
 
 ## Usage
 
