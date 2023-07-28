@@ -1,11 +1,20 @@
-﻿namespace Sudo
+﻿using System.Diagnostics;
+
+namespace Sudo
 {
     class Program
     {
-
         static void Main(string[] args)
         {
             string[] parsedArgs = RunArgs(args);
+            if (parsedArgs.Length == 0) { return; }
+            string program = parsedArgs[0];
+
+            ProcessStartInfo info = new ProcessStartInfo(program);
+            info.UseShellExecute = true;
+            info.Verb = "runas";
+
+            Process.Start(info);
         }
 
         /**
