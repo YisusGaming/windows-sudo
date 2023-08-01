@@ -39,7 +39,7 @@
 ## Installation
 > You can also build the program from source, see [Build from Source](#build-from-source).
 
-<h3 style="display: inline;">First</h3>, download the "<code>windows-sudo</code>" zip file from the release you're planning to use.
+**First**, download the "<code>windows-sudo</code>" zip file from the release you're planning to use.
 
 Once you've downloaded the file, unzip it. After, you should see a folder with the `.exe` file inside.
 
@@ -59,7 +59,7 @@ To see available options, pass `--help` as an option.
 
 ## Build from Source
 
-<h3 style="display:inline;">First</h3>, make sure you have .NET installed.
+**First**, make sure you have .NET installed.
 
 `.NET 6.0.302` was used for this project.
 
@@ -69,7 +69,7 @@ git clone repo-link
 ```
 Or you could simply download the source code as a zip and unzip it.
 
-<h3 style="display:inline;">Then</h3>, navigate to the cloned or downloaded folder and run:
+**Then**, navigate to the cloned or downloaded folder and run:
 
 ```shell
 dotnet build --configuration Release
