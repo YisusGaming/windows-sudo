@@ -1,3 +1,5 @@
+[![build](https://github.com/YisusGaming/windows-sudo/actions/workflows/integrate.yml/badge.svg)](https://github.com/YisusGaming/windows-sudo/actions/workflows/integrate.yml)
+
 <div align="center">
     <h1>Sudo</h1>
 
